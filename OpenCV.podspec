@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "OpenCV"
-  s.version      = "2.4.8"
+  s.version      = "2.4.10"
   s.summary      = "OpenCV (Computer Vision) for iOS."
-  s.homepage     = "https://github.com/Fl0p/OpenCV-iOS"
+  s.homepage     = "https://github.com/pevasquez/OpenCV-iOS"
   s.description  = <<-DESC
     OpenCV: open source computer vision library
 
@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
   s.author       = "opencv.org"
 
   s.source       = { 
-    :git => "https://github.com/Fl0p/OpenCV-iOS.git", 
+    :git => "https://github.com/pevasquez/OpenCV-iOS.git", 
     :tag => "#{s.version}"
   }
 
